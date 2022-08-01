@@ -13,6 +13,7 @@ function clearText() {
     document.getElementById("display-2").value = " ";
     decTally = 0;
 }
+
 function updateTextbox(btn){
     if (btn == '.'){ 
         if(decTally == 0){
