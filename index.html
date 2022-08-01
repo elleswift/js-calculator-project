@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <section>
+        <h1><strong><em>Calculator Project by ES</strong></em></h1>
+        <div class="container">
+            <div class="calc-grid">
+            <div id="display-1">111 </div>
+            <input class="display-2" value="" id="display-2">
+            <div class="display-3">333</div>  
+        </div>
+        <div class="all-btns">
+            <div class="btn dataClr" onclick="clearText()">CE</div> 
+            <div class="btn dataDel" onclick="cl()">DEL</div>
+            <div class="btn dataBracket" onclick="updateTextbox('b')">()</div>
+            <div class="btn operatorDiv" onclick="updateTextbox('/')" >/</div>
+            <div class="btn number" onclick="updateTextbox(7)">7</div>
+            <div class="btn number"onclick="updateTextbox(8)">8</div>
+            <div class="btn number"onclick="updateTextbox(9)">9</div>
+            <div class="btn operatorSub" onclick="updateTextbox('-')">-</div>
+            <div class="btn number"onclick="updateTextbox(4)">4</div>
+            <div class="btn number"onclick="updateTextbox(5)">5</div>
+            <div class="btn number"onclick="updateTextbox(6)">6</div> 
+            <div class="btn operatorMul" onclick="updateTextbox('*')">*</div>
+            <div class="btn number"onclick="updateTextbox(1)">1</div>
+            <div class="btn number"onclick="updateTextbox(2)">2</div>
+            <div class="btn number"onclick="updateTextbox(3)">3</div>
+            <div class="btn operatorAdd" onclick="updateTextbox('+')">+</div>
+            <div class="btn operatorPer" onclick="updateTextbox('%')">%</div>
+            <div class="btn number"onclick="updateTextbox(0)">0</div>
+            <div class="btn dataDec"onclick="updateTextbox('.')">.</div>
+            <div class="btn dataEql" onclick="eqResult()">=</div>
+        </div>
+    </div>
+      </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
